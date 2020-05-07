@@ -12,8 +12,6 @@ Flask-WTF==0.14.3
 
 gunicorn==20.0.4
 
-html5lib==1.0.1
-
 itsdangerous==1.1.0
 
 Jinja2==2.10
@@ -21,9 +19,6 @@ jsonschema==2.6.0
 
 MarkupSafe==1.1.0
 
-
-
-pyOpenSSL==18.0.0
 
 python-dateutil==2.7.5
 
@@ -34,3 +29,4 @@ SQLAlchemy==1.2.15
 Werkzeug==0.14.1
 
 WTForms==2.3.1
+
