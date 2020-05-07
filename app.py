@@ -3,7 +3,9 @@ from horoscope import zodiac_sign
 from datetime import datetime
 
 # app = Flask("My Flask App")
-app = Flask(__name__, template_folder='../templates') 
+app = Flask(__name__, template_folder='./templates') 
+app.config['EXPLAIN_TEMPLATE_LOADING']=True 
+
 
 
 @app.route("/") 
