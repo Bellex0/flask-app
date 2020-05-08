@@ -23,7 +23,7 @@ def read_form():
 	print(date)
 	sign= zodiac_sign (month,day)
 	print(sign)
-	return render_template (sign +'.html')
+	return render_template (sign.lower() +'.html')
 
 
 
