@@ -24,7 +24,7 @@ def read_form():
 	sign= zodiac_sign (month,day)
 	print(sign)
 	return render_template (sign +'.html')
-	#return "All OK"
+
 
 
 if __name__ == '__main__':
