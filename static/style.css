@@ -1,14 +1,51 @@
-#main-title {
-    text-align: center;
-    font-size: 48px;
+body {
+    background-color: #0e0766;
+    color: #fcf868;
+    font-family: 'Baloo Da 2', cursive;
 }
 
+#main-title {
+    font-family: 'Sail', cursive !important;
+    text-align: center;
+    font-size: 52px;
+}
+
+#name {
+    font-family: 'Sail', cursive !important;
+    text-align: center;
+    font-size: 40px;
+}
+
+ul {
+    text-align: center;
+    list-style: none
+}
+
+
 img {
+    margin-top: 5px;
     width: 300px;
     height: 400px;
-    text-align: center
+    margin-left: 40%;
 }
 
 span {
     font-weight: bold;
 }
+
+form {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #fcf868;
+    display: inline-block;
+    width: 100%;
+    max-width: 340px;
+    border-radius: 3px;
+    margin-left: 37%;
+    color: black;
+  }
+
+  #traits {
+    margin-left: 5%;
+
+  }

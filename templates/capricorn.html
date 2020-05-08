@@ -1,34 +1,31 @@
 {% extends 'layout.html' %}
 
 {% block body %} 
-<h1>Capricorn</h1>
-<p>
-        Dates: December 21 – January 20
+<h1 id="name">Capricorn ♑️</h1>
+<ul>
+        <li><span>Dates:</span> December 21 – January 20</li>
+        <li><span>Symbol:</span> The Sea-Goat</li>
+        <li><span>Mode + Element:</span> Cardinal Earth</li>
+        <li><span>Ruling Planet:</span> Saturn</li>
+        <li><span>Colors:</span> Brown & Khaki</li>
+        <li><span>Most Compatible With:</span> Taurus & Virgo</li>
+        <li><span>Least Compatible With:</span> Aries & Libra</li>
+</ul>
 
-Symbol: The Sea-Goat
+<div id="traits">
+        <h4>WHAT ARE CAPRICORNS INTO?</h4>
 
-Mode + Element: Cardinal Earth
+        <p><span>Money.</span> It's the most tangible way to measure their success, and success is their catnip.</p>
 
-Ruling Planet: Saturn
-Colors: Brown & Khaki
-        Most Compatible With: Taurus & Virgo
-        Least Compatible With: Aries & Libra
-</p>
+<p><span>Puzzles and games.</span> Really really difficult ones - something like Escape Rooms but extra. Tasks which are absorbing and complicated (ideally "never been completed") that they can set their methodical mind to solving... and prove to others how brill they are.</p>
 
-<p>
-        WHAT ARE CAPRICORNS INTO?
+<p><span>DIY and gardening.</span> Capricorns LOVE being at home, and doing something useful, practical and improving around the house or garden. Pottering-with-intent...</p>
+<p><span>Reading.</span> Not in a flippant way, oh no no, but to stockpile precious knowledge, learn how to do things, and to outdo other people by acquiring surprising super-skills!</p>
 
-        Money. It's the most tangible way to measure their success, and success is their catnip.
+<p><span>Instant gratification.</span> For all of their seriousness and steadfastness, there is a big kid inside every Capricorn who wants all the sweets/drinks/bonus points/shoes/cocktails and wants them NOW. If they let themselves off their own lead, they have a tendency to go a teensy bit wild...</p>               
+</div>
 
-Puzzles and games. Really really difficult ones - something like Escape Rooms but extra. Tasks which are absorbing and complicated (ideally "never been completed") that they can set their methodical mind to solving... and prove to others how brill they are.
-
-DIY and gardening. Capricorns LOVE being at home, and doing something useful, practical and improving around the house or garden. Pottering-with-intent...
-Reading. Not in a flippant way, oh no no, but to stockpile precious knowledge, learn how to do things, and to outdo other people by acquiring surprising super-skills!
-
-Instant gratification. For all of their seriousness and steadfastness, there is a big kid inside every Capricorn who wants all the sweets/drinks/bonus points/shoes/cocktails and wants them NOW. If they let themselves off their own lead, they have a tendency to go a teensy bit wild...               
-</p>
-
-<img src="{{url_for('static', filename='capricorn.png')}}" align="middle"/>
+<img src="{{url_for('static', filename='capricorn.png')}}"/>
 
 
 {%endblock%}

@@ -1,31 +1,31 @@
 {% extends 'layout.html' %}
 
 {% block body %} 
-<h1>Taurus</h1>
+<h1 id="name">Taurus ♉️</h1>
 
-<p>
-        Dates: April 20 – May 20
-        Symbol: The Bull
-        Mode + Element: Fixed Earth
-        Ruling Planet: Venus
-        Colors: Green & Light Pink
-        Most Compatible With: Virgo & Capricorn
-        Least Compatible With: Leo & Aquarius
-</p>
+<ul>
+        <li><span>Dates:</span> April 20 – May 20</li>
+        <li><span>Symbol:</span> The Bull</li>
+        <li><span>Mode + Element:</span> Fixed Earth</li>
+        <li><span>Ruling Planet:</span> Venus</li>
+        <li><span>Colors:</span> Green & Light Pink</li>
+        <li><span>Most Compatible With:</span> Virgo & Capricorn</li>
+        <li><span>Least Compatible With:</span> Leo & Aquarius</li>
+</ul>
 
-<p>
-        WHAT ARE TAUREANS INTO?
-        Money. The key to a lot of physical pleasure, and therefore the access code to their enjoyment of life (as well as quelling their deep-rooted Earth sign desire for security). ALL Taureans obsess over, respect and manage their money. They enjoy investing and saving.
+<div id="traits">
+        <h4>WHAT ARE TAUREANS INTO?</h4>
+        <p><span>Money.</span> The key to a lot of physical pleasure, and therefore the access code to their enjoyment of life (as well as quelling their deep-rooted Earth sign desire for security). ALL Taureans obsess over, respect and manage their money. They enjoy investing and saving.</p>
         
-        Food. Taureans don’t eat to live, they live to eat. Food is massively important and they enjoy cooking and hosting dinner parties but, even more, going out to quaff and scoff at any given opportunity. Natural-born food bloggers!
+        <p><span>Food.</span> Taureans don’t eat to live, they live to eat. Food is massively important and they enjoy cooking and hosting dinner parties but, even more, going out to quaff and scoff at any given opportunity. Natural-born food bloggers!</p>
         
-        Chilling. They don’t even need Netflix. Just give them a dressing gown, a fluffy blanket and some peace’n’quiet and they can stop on that sofa for HOURS. Doing NOTHING.
+        <p><span>Chilling.</span> They don’t even need Netflix. Just give them a dressing gown, a fluffy blanket and some peace’n’quiet and they can stop on that sofa for HOURS. Doing NOTHING.</p>
         
-        Flirting. I can’t put my finger on why, exactly, but Taureans are always hot stuff, and draw admirers like moths to a flame. They only need to glance at a dating app, and it lights up with invitations. They know how to have a good time, so they make for great company - in love or friendship! They love attracting admiring attention, and are expert flirts.
+        <p><span>Flirting.</span> I can’t put my finger on why, exactly, but Taureans are always hot stuff, and draw admirers like moths to a flame. They only need to glance at a dating app, and it lights up with invitations. They know how to have a good time, so they make for great company - in love or friendship! They love attracting admiring attention, and are expert flirts.</p>
         
-        Shopping. It’s not just a necessity or pragmatic list-driven activity but, rather, a specialist event undertaken for its own pleasure. They’re the kind of people who will go “down town” all day, browsing and ambling around their favourite boutiques and stores (with a nice lunch too, obvs). They take shopping seriously. Don’t tag along unless you do too - you’ll be bored…
-</p>
+        <p><span>Shopping.</span> It’s not just a necessity or pragmatic list-driven activity but, rather, a specialist event undertaken for its own pleasure. They’re the kind of people who will go “down town” all day, browsing and ambling around their favourite boutiques and stores (with a nice lunch too, obvs). They take shopping seriously. Don’t tag along unless you do too - you’ll be bored…</p>
+</div>
 
-<img src="{{url_for('static', filename='taurus.png')}}" align="middle"/>
+<img src="{{url_for('static', filename='taurus.png')}}"/>
 
 {%endblock%}
